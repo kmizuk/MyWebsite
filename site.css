@@ -75,10 +75,16 @@ header{
     text-align: center;
     font-weight: normal;
     line-height: 20px;
+    letter-spacing: 10px;
 }
 
 .middle-down{
-    height: 500px;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.middle-down h1{
+    text-align: center;
 }
 
 
@@ -96,54 +102,59 @@ footer{
 
 .it a{
     text-align: center;
-    padding-top: 150px;
+    padding-top: 50px;
     float: left;
     width: 33%;
+    position: relative;
 }
 
 .sns a{
     text-align: center;
-    padding-top: 150px;
+    padding: 50px 0;
+    
     float: left;
     width: 25%;
+    position: relative;
 }
 
 .btn {
     color: white;
     display: inline-block;
-    opacity: 0.8;
+    opacity: 0.7;
     border-radius: 4px;
 }
   
 .github {
-    background-color: #151a24;
+    color: #151a24;
 }
 
 .qiita {
-    background-color: #1fa059;
+    color: #1fa059;
 }
 
 .note {
-    background-color: #3dc782;
+    color: #3dc782;
 }
 
 .facebook {
-    background-color: #3b5998;
+    color: #3b5998;
 }
   
 .twitter {
-    background-color: #55acee;
+    color: #55acee;
 }
   
 .instagram {
-    background-color: #b152a4;
+    color: #b152a4;
 }
   
 .linkedin {
-    background-color: #305fc5;
+    color: #305fc5;
 }
   
-
+.contact {
+    line-height: 5px;
+}
 
 
 

@@ -1,0 +1,165 @@
+li {
+    list-style: none;
+  }
+
+a{
+    display: block;
+}
+
+body{
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+header{
+    height:90px;
+    width: 100%;
+    border-bottom: 2px solid #dee7ec;
+    background-color: rgba(24, 49, 54, 0.6);
+    position:fixed;
+    top:0;
+    z-index:10;
+    color:whitesmoke;
+    opacity: 0.9;
+}
+
+.container{
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-left {
+   position: absolute;
+   padding-top: 5px;
+   font-size: 70px;
+   float: left;
+}
+
+.header-left span {
+    color: brown;
+}
+
+.header-list{
+    padding-left: 300px;
+    padding-top: 15px;
+}
+
+.header-list li{
+    float: left;
+    font-size: 36px;
+    font-weight: normal;
+    padding: 10px;
+    color: whitesmoke;
+    transition: all 0.5s;
+}
+
+.header-list li:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.header-list li:active{
+    opacity: 0.8;
+}
+
+.middle-up{
+    height: 950px;
+    background-image:url(background-image.jpg);
+    background-size:cover;
+}
+
+.m-1{
+    padding-top: 700px;
+    color: #6A5ACD;
+    opacity: 0.7;
+    text-align: center;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+.middle-down{
+    height: 500px;
+}
+
+
+footer{
+    background-color: rgba(24, 49, 54);
+    height:100px;
+}
+
+.f-1 a{
+    text-align: center;
+    color: #dee7ec;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.it a{
+    text-align: center;
+    padding-top: 150px;
+    float: left;
+    width: 33%;
+}
+
+.sns a{
+    text-align: center;
+    padding-top: 150px;
+    float: left;
+    width: 25%;
+}
+
+.btn {
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+  
+.github {
+    background-color: #151a24;
+}
+
+.qiita {
+    background-color: #1fa059;
+}
+
+.note {
+    background-color: #3dc782;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+  
+.twitter {
+    background-color: #55acee;
+}
+  
+.instagram {
+    background-color: #b152a4;
+}
+  
+.linkedin {
+    background-color: #305fc5;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

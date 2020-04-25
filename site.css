@@ -64,7 +64,7 @@ header{
 
 .middle-up{
     height: 950px;
-    background-image:url(background-image.jpg);
+    background-image:url(https://s3handson0425kmizuk.s3-ap-northeast-1.amazonaws.com/images/background-image.jpg);
     background-size:cover;
 }
 

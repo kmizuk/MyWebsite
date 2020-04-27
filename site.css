@@ -1,3 +1,10 @@
+*{
+    box-sizing:border-box;
+  }
+  .clear{
+      clear: left;
+  }
+
 li {
     list-style: none;
   }
@@ -23,7 +30,7 @@ header{
 }
 
 .container{
-    width: 1170px;
+    width: 100%;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -64,6 +71,7 @@ header{
 
 .middle-up{
     height: 950px;
+    width: 100%;
     background-image:url(https://s3handson0425kmizuk.s3-ap-northeast-1.amazonaws.com/images/background-image.jpg);
     background-size:cover;
 }
@@ -79,7 +87,6 @@ header{
 }
 
 .middle-down{
-    height: 100px;
     padding-top: 20px;
 }
 
@@ -91,6 +98,7 @@ header{
 footer{
     background-color: rgba(24, 49, 54);
     height:100px;
+    width: 100%;
 }
 
 .f-1 a{
@@ -111,7 +119,6 @@ footer{
 .sns a{
     text-align: center;
     padding: 50px 0;
-    
     float: left;
     width: 25%;
     position: relative;

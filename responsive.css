@@ -14,6 +14,10 @@
         width: 100%;
     }
 
+    .it .sns a{
+        width: 100%;
+    }
+
     .header-list{
         display: none;
     }

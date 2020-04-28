@@ -1,36 +1,36 @@
-@media(max-width:1000px ){
-    .btn{
-        width: 50%;
-    }
-
-    .m-1{
-        align:right;
-        font-size: middle;
-    }
-   }
-  
-@media(max-width:670px ) {
-    .btn{
-        width: 100%;
-    }
-
-    .it .sns a{
-        width: 100%;
-    }
-
-    .header-list{
-        display: none;
-    }
-    footer{
-        align:center;
-    }
-
-    .m-1{
-        align:center;
-        font-size: small;
-    }
-
-    .contact{
-        align:center;
-    }
+@media (max-width: 1000px) {
+  .btn {
+    width: 50%;
   }
+
+  .m-1 {
+    align: right;
+    font-size: middle;
+  }
+}
+
+@media (max-width: 670px) {
+  .btn {
+    width: 100%;
+  }
+
+  .it .sns a {
+    width: 100%;
+  }
+
+  .header-list {
+    display: none;
+  }
+  footer {
+    align: center;
+  }
+
+  .m-1 {
+    align: center;
+    font-size: small;
+  }
+
+  .contact {
+    align: center;
+  }
+}

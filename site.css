@@ -1,183 +1,163 @@
-*{
-    box-sizing:border-box;
-  }
-  .clear{
-      clear: left;
-  }
+* {
+  box-sizing: border-box;
+}
+.clear {
+  clear: left;
+}
 
 li {
-    list-style: none;
-  }
-
-a{
-    display: block;
+  list-style: none;
 }
 
-body{
-    font-family: "Hiragino Kaku Gothic ProN";
+a {
+  display: block;
 }
 
-header{
-    height:90px;
-    width: 100%;
-    border-bottom: 2px solid #dee7ec;
-    background-color: rgba(24, 49, 54, 0.6);
-    position:fixed;
-    top:0;
-    z-index:10;
-    color:whitesmoke;
-    opacity: 0.9;
+body {
+  font-family: "Hiragino Kaku Gothic ProN";
 }
 
-.container{
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
+header {
+  height: 90px;
+  width: 100%;
+  border-bottom: 2px solid #dee7ec;
+  background-color: rgba(24, 49, 54, 0.6);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  color: whitesmoke;
+  opacity: 0.9;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .header-left {
-   position: absolute;
-   padding-top: 5px;
-   font-size: 70px;
-   float: left;
+  position: absolute;
+  padding-top: 5px;
+  font-size: 70px;
+  float: left;
 }
 
 .header-left span {
-    color: brown;
+  color: brown;
 }
 
-.header-list{
-    padding-left: 300px;
-    padding-top: 15px;
+.header-list {
+  padding-left: 300px;
+  padding-top: 15px;
 }
 
-.header-list li{
-    float: left;
-    font-size: 36px;
-    font-weight: normal;
-    padding: 10px;
-    color: whitesmoke;
-    transition: all 0.5s;
+.header-list li {
+  float: left;
+  font-size: 36px;
+  font-weight: normal;
+  padding: 10px;
+  color: whitesmoke;
+  transition: all 0.5s;
 }
 
-.header-list li:hover{
-    opacity: 0.5;
-    cursor: pointer;
+.header-list li:hover {
+  opacity: 0.5;
+  cursor: pointer;
 }
 
-.header-list li:active{
-    opacity: 0.8;
+.header-list li:active {
+  opacity: 0.8;
 }
 
-.middle-up{
-    height: 950px;
-    width: 100%;
-    background-image:url(https://s3handson0425kmizuk.s3-ap-northeast-1.amazonaws.com/images/background-image.jpg);
-    background-size:cover;
+.middle-up {
+  height: 950px;
+  width: 100%;
+  background-image: url(https://s3handson0425kmizuk.s3-ap-northeast-1.amazonaws.com/images/background-image.jpg);
+  background-size: cover;
 }
 
-.m-1{
-    padding-top: 700px;
-    color: #6A5ACD;
-    opacity: 0.7;
-    text-align: center;
-    font-weight: normal;
-    line-height: 20px;
-    letter-spacing: 10px;
+.m-1 {
+  padding-top: 700px;
+  color: #6a5acd;
+  opacity: 0.7;
+  text-align: center;
+  font-weight: normal;
+  line-height: 20px;
+  letter-spacing: 10px;
 }
 
-.middle-down{
-    padding-top: 20px;
+.middle-down {
+  padding-top: 20px;
 }
 
-.middle-down h1{
-    text-align: center;
+.middle-down h1 {
+  text-align: center;
 }
 
-
-footer{
-    background-color: rgba(24, 49, 54);
-    height:100px;
-    width: 100%;
+footer {
+  background-color: rgba(24, 49, 54);
+  height: 100px;
+  width: 100%;
 }
 
-.f-1 a{
-    text-align: center;
-    color: #dee7ec;
-    padding-top: 30px;
-    font-size: 20px;
+.f-1 a {
+  text-align: center;
+  color: #dee7ec;
+  padding-top: 30px;
+  font-size: 20px;
 }
 
-.it a{
-    text-align: center;
-    padding-top: 50px;
-    float: left;
-    width: 33%;
-    position: relative;
+.it a {
+  text-align: center;
+  padding-top: 50px;
+  float: left;
+  width: 33%;
+  position: relative;
 }
 
-.sns a{
-    text-align: center;
-    padding: 50px 0;
-    float: left;
-    width: 25%;
-    position: relative;
+.sns a {
+  text-align: center;
+  padding: 50px 0;
+  float: left;
+  width: 25%;
+  position: relative;
 }
 
 .btn {
-    color: white;
-    display: inline-block;
-    opacity: 0.7;
-    border-radius: 4px;
+  color: white;
+  display: inline-block;
+  opacity: 0.7;
+  border-radius: 4px;
 }
-  
+
 .github {
-    color: #151a24;
+  color: #151a24;
 }
 
 .qiita {
-    color: #1fa059;
+  color: #1fa059;
 }
 
 .note {
-    color: #3dc782;
+  color: #3dc782;
 }
 
 .facebook {
-    color: #3b5998;
+  color: #3b5998;
 }
-  
+
 .twitter {
-    color: #55acee;
+  color: #55acee;
 }
-  
+
 .instagram {
-    color: #353432;
+  color: #353432;
 }
-  
+
 .linkedin {
-    color: #305fc5;
+  color: #305fc5;
 }
-  
+
 .contact {
-    line-height: 5px;
+  line-height: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
